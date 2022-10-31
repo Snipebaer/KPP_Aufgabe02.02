@@ -15,9 +15,9 @@ int main()
 	c += b * d +4;
 	a = --b + d++;
 
-	printf("a: %d \n", a);
-	printf("b: %d \n", b);
-	printf("d: %d \n", d);
+	printf("a: %d \n", a); // 10
+	printf("b: %d \n", b); // 8
+	printf("d: %d \n", d); // 3
 
 	return 0;
 	
