@@ -11,10 +11,10 @@ int main()
 
 	a = ++b * d++ * ++c * (-1);
 
-	printf("a: %d \n", a);
-	printf("b: %d \n", b);
-	printf("c: %d \n", c);
-	printf("d: %d \n", d);
+	printf("a: %d \n", a); //-48
+	printf("b: %d \n", b); // 3
+	printf("c: %d \n", c); // 4
+	printf("d: %d \n", d); // 5
 
 	return 0;
 	
